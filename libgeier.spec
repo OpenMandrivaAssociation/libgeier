@@ -71,6 +71,7 @@ The library documentation is available on header files.
 
 %install
 %makeinstall_std
+find %{buildroot} -type f -name '*.la' -exec rm -f {} \;
 
 %files -n %{realname}
 %doc AUTHORS ChangeLog COPYING INSTALL NEWS README

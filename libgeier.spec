@@ -13,6 +13,7 @@ License:	GPL
 URL:		http://www.taxbird.de/
 Group:		System/Libraries
 Source0:	%{name}-%{version}.tar.gz
+BuildRequires:	libxml2-devel
 
 %description
 libgeier is the first free library to encrypt, digitally sign, decrypt,

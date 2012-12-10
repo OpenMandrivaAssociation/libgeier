@@ -93,3 +93,16 @@ find %{buildroot} -type f -name '*.la' -exec rm -f {} \;
 %{_libdir}/%{name}.a
 %{_libdir}/%{name}.so
 %{_libdir}/pkgconfig/%{name}.pc
+
+
+%changelog
+* Fri Jan 13 2012 Alexander Khrukin <akhrukin@mandriva.org> 0.13-1
++ Revision: 760774
+- removing la-files
+
+* Fri Jan 13 2012 Alexander Khrukin <akhrukin@mandriva.org> 0.13-1
++ Revision: 760766
+- BR fixes
+- BR libxml2
+- imported package libgeier
+

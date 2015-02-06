@@ -1,5 +1,5 @@
 %define	version	    0.13
-%define	release	    1
+%define release	    2
 %define	major	    0
 %define	realname    geier
 %define	libname    %mklibname %{realname} %{major}

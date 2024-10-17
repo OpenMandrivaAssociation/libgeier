@@ -10,7 +10,7 @@ Summary:	A C-library for German tax declarations data
 Version:	%{version}
 Release:	%{release}
 License:	GPL
-URL:		http://www.taxbird.de/
+URL:		https://www.taxbird.de/
 Group:		System/Libraries
 Source0:	%{name}-%{version}.tar.gz
 BuildRequires:	libxml2-devel

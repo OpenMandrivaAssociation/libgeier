@@ -13,6 +13,11 @@ License:	GPL
 URL:		https://www.taxbird.de/
 Group:		System/Libraries
 Source0:	%{name}-%{version}.tar.gz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	libxml2-devel
 BuildRequires:	libxslt-devel
 BuildRequires:	xmlsec1-devel
